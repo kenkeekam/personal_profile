@@ -1,0 +1,38 @@
+.home__info {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.home__info > h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.home__info > h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.home__text {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    color: white;
+}
+
+.home__textTwo {
+    margin-top: 175px;
+    text-align: center;
+    color: white;
+}
+
+.home__textUnderline {
+    border-bottom: solid #f5554f 2px;
+    padding-bottom: 4px;
+}
+

@@ -1,0 +1,84 @@
+.contact__info {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.contact__info > h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact__info > h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+/* input field */
+
+.contact__input {
+    margin-top: 175px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact__input > input {
+    background-color: #1f1f1f;
+    border: none;
+    height: 30px;
+    width: 800px;
+    border-radius: 5px;
+    padding-left: 10px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.contact__input > h4 {
+    color: white;
+    margin-bottom: 7.5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.contact__email {
+    margin-right: 760px;
+}
+
+.contact__message {
+    margin-right: 740px;
+}
+
+input::placeholder {
+    color: 6c757d;
+    font-family: inconsolata,monospace;
+    font-size: 15px;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+.contact__button {
+    text-align: center;
+    margin-right: 735px;
+}
+
+.contact__submit {
+    height: 40px;
+    color: white;
+    background-color: #F5554F;
+    font-family: inconsolata,monospace;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact__submit:hover {
+    background-color: #f53a33;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
